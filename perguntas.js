@@ -1,7 +1,7 @@
 criarCartao(
     'Programação',
-    'O que JavaScript?',
-    'O JavaScript é uma linguagem de programação'
+    'O que é Python?',
+    'O Python é uma linguagem de programação'
 
 )
 criarCartao(
@@ -14,5 +14,4 @@ criarCartao(
     'Programação',
     'O que é uma função?',
     'Uma função é um bloco de código que executa alguma tarefa'
-
 )
