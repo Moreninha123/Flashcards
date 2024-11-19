@@ -63,6 +63,7 @@ footer p{
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
+    font-size: 1.4vw;
 }
 
 .cartao__conteudo__pergunta p {
@@ -106,5 +107,23 @@ footer p{
   text-align: center;
   font-size: 0.6rem;
   margin-top: 0.5rem;
+}
+  @media(max-whidt: 560px) {
+
+    body {
+        background: url('img/bg-mobile.webp');
+    }
+    .cartao{
+        flex: 1 0 calc(100% - 1rem)
+    
+    }
+.cartao__conteudo h3 {
+    font-size: 3vw;
+}
+.cartao__conteudo p {
+    font-size: 3.8;
+}
+  }
+
 
 
